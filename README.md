@@ -13,16 +13,16 @@ Por exemplo, suponha que estejamos desenvolvendo um portal de acompanhamento de 
 
 Existem vários desafios que precisaremos considerar no cenário anterior:
 
-###Gerenciar ambientes de hospedagem
+### Gerenciar ambientes de hospedagem
 Todos os diferentes ambientes exigem o gerenciamento de software e hardware. Precisamos garantir que o software instalado e o hardware configurado em cada um deles sejam os mesmos. Também precisamos configurar aspectos como acesso à rede, armazenamento de dados e segurança por ambiente de maneira consistente e facilmente reproduzível.
 
-###Continuidade na entrega de software
+### Continuidade na entrega de software
 A implantação de aplicativos em nossos ambientes deve acontecer de forma consistente. Cada pacote de implantação precisa incluir todos os pacotes do sistema, binários, bibliotecas, arquivos de configuração e outros itens que garantem um aplicativo totalmente funcional. Também precisamos garantir que todas essas dependências sejam correspondentes às versões e à arquitetura de software.
 
-###Uso eficiente de hardware
+### Uso eficiente de hardware
 Cada aplicativo implantado precisa ser executado de modo que seja isolado de outros aplicativos em execução no mesmo hardware. Nosso objetivo é executar mais de um aplicativo por servidor para fazer o melhor uso dos recursos sem comprometer uns aos outros.
 
-###Portabilidade do aplicativo
+### Portabilidade do aplicativo
 Há várias razões pelas quais a portabilidade do aplicativo é essencial. Um ambiente de hospedagem pode falhar ou talvez precisamos expandir nosso aplicativo. Em ambos os casos, o resultado potencial é a reimplantação do nosso software em um novo ambiente.
 
 Desejamos mover o software de um host para outro, mesmo se a infraestrutura subjacente for diferente. Essa movimentação precisa ocorrer o mais rápido possível, a fim de reduzir o tempo de inatividade para nossos clientes.
